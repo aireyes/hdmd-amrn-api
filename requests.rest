@@ -1,0 +1,12 @@
+###
+
+POST http://127.0.0.1:3333/api/teams
+Content-Content-Type: application/json
+
+{
+  "name": "Golden State Warriors",
+}
+
+###
+
+GET http://127.0.0.1:3333/api/teams
